@@ -44,7 +44,6 @@ cat < file1
 ## OUTPUT
 
 
-
 cat < file2
 ## OUTPUT
 
