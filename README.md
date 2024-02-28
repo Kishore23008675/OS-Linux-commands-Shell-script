@@ -1,4 +1,4 @@
-# OS-Linux-commands-Shell-scripting
+![Screenshot from 2024-02-28 09-14-46](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/9dfa8048-5777-4af9-a2f4-91582e1bce6f)# OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
@@ -146,9 +146,6 @@ cat newfile | grep -i -c "hello"
 
 grep -R ubuntu /etc
 ## OUTPUT
-
-
-
 
 ![Screenshot from 2024-02-26 19-26-26](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/808f36df-96b8-48f0-b4ed-e8c3197c5501)
 
@@ -311,38 +308,47 @@ sed -n -e '/tom/,/Joe/p' file23
 
 seq 10 
 ## OUTPUT
+![Screenshot from 2024-02-26 20-54-26](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/88baf571-d0ba-43c9-a1cf-c2baaedabc10)
 
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
+![Screenshot from 2024-02-26 20-54-35](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/cd460a8d-ccdb-4f86-8221-f2309b92fa05)
 
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
+![Screenshot from 2024-02-26 20-54-44](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/ae78fcfb-c5e2-42e8-ab18-76f5853086ba)
 
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
+![Screenshot from 2024-02-26 20-54-55](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/6e50d1a9-bb93-41f2-9123-f77646d7d8f2)
 
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
+![Screenshot from 2024-02-26 20-55-05](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/662da3bf-71c2-43c5-bf0d-6c533d3b1cd7)
 
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
+![Screenshot from 2024-02-26 20-55-14](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/1585e8f5-85dd-4add-97b8-9810097bdeab)
 
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
+![Screenshot from 2024-02-26 20-55-56](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/d44a84ea-e1ff-4ecb-9030-79779182dc67)
 
 
 
 sed -n '2,4{s/$/*/;p}' file23
+
+
 
 
 #Sorting File content
@@ -356,6 +362,9 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
+
+
+
 
 
 cat > file22
@@ -392,17 +401,21 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
+![Screenshot from 2024-02-27 23-16-56](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/30252bc2-9def-4136-82e6-f7d992358240)
 
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
+![Screenshot from 2024-02-27 23-17-16](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/166bc15f-a024-4a8a-b50d-eec6c7e06566)
 
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+![Screenshot from 2024-02-28 09-14-58](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/64ceb572-d8cd-498f-a9fe-d66726275355)
+![Screenshot from 2024-02-28 09-14-46](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/e0e91c03-a0ed-4476-a8a6-93333ffff148)
 
 
 mkdir backupdir
@@ -411,18 +424,22 @@ mv backup.tar backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
+![Screenshot from 2024-02-28 09-14-29](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/d4972187-ab41-4d08-83fe-0b9d609e1909)
 
 
 tar -xvf backup.tar
 ## OUTPUT
+![Screenshot from 2024-02-28 09-14-14](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/ee89a629-1a7d-4cd6-a745-aeeb1d29fc1e)
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
- 
+ ![Screenshot from 2024-02-28 09-14-01](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/6f7726ee-d192-41fe-a261-1ee76356df45)
+
 gunzip backup.tar.gz
 ## OUTPUT
+![Screenshot from 2024-02-28 09-13-52](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/31e2e5b1-e720-42b7-8b8b-7a0ef72d5b2a)
 
  
 # Shell Script
@@ -433,8 +450,10 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
+![Screenshot from 2024-02-28 09-13-39](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/02233079-723e-49bd-b069-7b478832b951)
 
- 
+
+
 cat << stop > herecheck.txt
 ```
 hello in this world
@@ -445,6 +464,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+![Screenshot from 2024-02-28 09-13-22](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/b31748ae-fd4c-466f-9952-8f715289f0bc)
 
 
 cat < scriptest.sh 
@@ -484,6 +504,9 @@ chmod 777 scriptest.sh
 
 ## OUTPUT
 
+![Screenshot from 2024-02-28 09-13-01](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/c4c988f8-a0ae-4ee2-929d-749bf96aba39)
+
+
  
 ls file1
 ## OUTPUT
@@ -492,6 +515,7 @@ ls file1
 
 echo $?
 ## OUTPUT 
+![Screenshot from 2024-02-27 23-23-20](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/8df96bd4-db25-4578-8d3a-b9231959eb6e)
 
 ./one
 bash: ./one: Permission denied
@@ -502,10 +526,7 @@ echo $?
 abcd
  
 echo $?
- ## OUTPUT
-
-
- 
+# OUTPUT
 # mis-using string comparisons
 
 cat < strcomp.sh 
