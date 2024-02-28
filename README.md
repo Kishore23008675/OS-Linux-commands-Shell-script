@@ -45,6 +45,7 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
+
 ![Screenshot from 2024-02-26 17-57-58](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/9a7fa92c-8402-46b8-b656-239d06beb3b1)
 
 cat < file2
