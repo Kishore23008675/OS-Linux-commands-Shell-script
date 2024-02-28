@@ -1,4 +1,4 @@
-![Screenshot from 2024-02-28 09-14-46](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/9dfa8048-5777-4af9-a2f4-91582e1bce6f)# OS-Linux-commands-Shell-scripting
+# OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
@@ -268,6 +268,7 @@ sed -n -e '3p' file23
 
 sed -n -e '$p' file23
 ## OUTPUT
+![Screenshot from 2024-02-28 17-55-22](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/afca3c93-2405-4bbc-99d2-b555901a92c2)
 
 
 
@@ -280,6 +281,7 @@ sed  -e 's/Ram/Sita/' file23
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
+![Screenshot from 2024-02-26 20-53-11](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/732a8883-da74-4630-a2b3-cfc431189f5c)
 
 
 
@@ -292,17 +294,20 @@ sed  '/tom/s/5000/6000/' file23
 
 sed -n -e '1,5p' file23
 ## OUTPUT
+![Screenshot from 2024-02-26 20-53-53](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/53dcef20-6784-4541-a63d-d8919ac83c87)
 
 
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
 
+![Screenshot from 2024-02-26 20-54-04](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/0116b822-3f29-4e58-be00-d25d1b5559a8)
 
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
+![Screenshot from 2024-02-26 20-54-12](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/7cb1cc36-80af-4227-a088-a31a6812d4e2)
 
 
 
@@ -347,6 +352,7 @@ sed -n '2,4{s/^/$/;p}' file23
 
 
 sed -n '2,4{s/$/*/;p}' file23
+![Screenshot from 2024-02-26 20-56-05](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/a6643768-92a8-43a4-ba76-b77f72dffd50)
 
 
 
@@ -363,6 +369,7 @@ cat > file21
 sort file21
 ## OUTPUT
 
+![Screenshot from 2024-02-26 21-09-53](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/839cd9a5-45c2-44d9-bae0-88c8adbac293)
 
 
 
@@ -378,13 +385,14 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
-
+![Screenshot from 2024-02-26 21-10-12](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/c6d124c6-ef46-4dad-b490-229eb70646bd)
 
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+![Screenshot from 2024-02-26 21-10-30](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/dd84bc9e-2182-49d4-a6f2-3ee0493862d7)
 
 cat < urllist.txt
 ```
@@ -829,7 +837,7 @@ $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
 
- ![Screenshot from 2024-02-28 09-10-09](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/36e9db60-0134-4280-a2c1-a57335ec2f0e)
+![Screenshot from 2024-02-28 09-10-09](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/36e9db60-0134-4280-a2c1-a57335ec2f0e)
 
  
 cat untiltest.sh 
@@ -844,7 +852,7 @@ done
 ``` 
 $ chmod 755 untiltest.sh
  
- ![Screenshot from 2024-02-28 09-09-54](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/d6d79a42-da5a-40dc-b553-08879fea431c)
+![Screenshot from 2024-02-28 09-09-54](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/d6d79a42-da5a-40dc-b553-08879fea431c)
 
  
 cat forin1.sh 
