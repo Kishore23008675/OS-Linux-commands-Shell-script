@@ -1,4 +1,4 @@
-![Screenshot from 2024-02-26 19-13-21](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/c1e559f9-2f67-43f2-95d6-fb9e68ae3677)# OS-Linux-commands-Shell-scripting
+# OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
@@ -240,7 +240,7 @@ egrep 'Linux.*World' newfile
 
 egrep l{2} newfile
 ## OUTPUT
-++++++++++![Screenshot from 2024-02-28 14-03-39](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/4106f4bc-6e7d-4aea-9849-67aab37c998d)
+![Screenshot from 2024-02-28 14-03-39](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/4106f4bc-6e7d-4aea-9849-67aab37c998d)
 
 
 
@@ -276,6 +276,7 @@ sed -n -e '$p' file23
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
+
 ![Screenshot from 2024-02-26 20-47-32](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/b4c8923e-4655-42b0-8acc-c8573cae0710)
 
 
@@ -287,6 +288,7 @@ sed  -e '2s/Ram/Sita/' file23
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
+
 ![Screenshot from 2024-02-26 20-48-14](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/781e3b84-e5ec-4dd4-8716-10dddcb65371)
 
 
@@ -485,6 +487,7 @@ chmod 777 scriptest.sh
  
 ls file1
 ## OUTPUT
+
 ![Screenshot from 2024-02-27 23-23-12](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/1278d500-a56d-45e3-aecd-21aa0d0a7043)
 
 echo $?
@@ -532,6 +535,7 @@ echo "$val1 is less than $val2"
 fi
 ```
 ##OUTPUT
+
 ![Screenshot from 2024-02-28 09-12-40](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/b538cfc6-e024-4bee-949d-190d131db7fc)
 
 
@@ -540,6 +544,7 @@ chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+
 ![Screenshot from 2024-02-28 09-12-24](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/ccb158fa-a56c-4170-a3c9-a4e6c6fff5dc)
 
 
@@ -569,6 +574,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+
 ![Screenshot from 2024-02-28 09-12-13](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/c05c5251-324d-4a24-a51c-3ba03dba5b25)
 
 
@@ -662,6 +668,7 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
+
 ![Screenshot from 2024-02-28 09-11-45](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/178b42c5-aa10-46a2-9a2f-db996e6cf958)
 
 # check if a file
@@ -744,6 +751,7 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
+
 ![Screenshot from 2024-02-28 09-11-20](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/65e249d5-ecb3-4972-b746-467dbf062008)
 
 
@@ -761,6 +769,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+
 ![Screenshot from 2024-02-28 09-10-38](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/82ba76bb-5810-4052-b9a3-ce25a374b8ad)
 
 # using the case command
@@ -781,6 +790,7 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
+
  ![Screenshot from 2024-02-28 09-10-24](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/041379c2-8da8-41e0-b658-d3e457cd950d)
 
 cat > whiletest
@@ -797,6 +807,7 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
+
  ![Screenshot from 2024-02-28 09-10-09](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/36e9db60-0134-4280-a2c1-a57335ec2f0e)
 
  
@@ -826,6 +837,7 @@ done
  ```
  
 $ chmod 755 forin1.sh
+
  ![Screenshot from 2024-02-28 09-09-41](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/be63b10a-f544-4cf3-aab7-4e9d8f4be8e5)
 
  
@@ -854,6 +866,7 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
+
  ![Screenshot from 2024-02-28 09-09-30](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/a0450c1e-c374-40ea-a823-629d21fcf956)
 
 cat forin3.sh 
@@ -866,6 +879,7 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
+
  ![Screenshot from 2024-02-28 09-09-20](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/018d6ba1-dbf3-4e81-9cef-1c9e5314a563)
 
 cat forin1.sh 
@@ -901,6 +915,7 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
+
 ![Screenshot from 2024-02-28 09-54-14](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/a144e84d-240e-40d3-bfc8-63140a90dbec)
 
 
@@ -916,6 +931,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT:
+
 ![Screenshot from 2024-02-28 09-08-52](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/08bac301-5132-433b-ab50-960eaae438cb)
 
 
@@ -931,6 +947,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+
 ![Screenshot from 2024-02-28 09-08-35](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/a72a580c-924b-4366-bd93-7a8355c994a9)
 
 
@@ -951,6 +968,7 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
+ 
 ![Screenshot from 2024-02-28 09-08-24](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/8663bff6-26de-4004-be52-252ddc1aad86)
 
  
@@ -973,6 +991,7 @@ echo "The for loop is completed“
 $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh
+
 ![Screenshot from 2024-02-28 09-08-13](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/d517455a-0c77-4689-9d8a-98b2ebe90276)
 
 
