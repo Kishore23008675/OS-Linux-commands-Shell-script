@@ -1,5 +1,5 @@
 NAME:KISHORE A
-REG:21223110022
+REG:212223110022
 
 # OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
