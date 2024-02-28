@@ -530,6 +530,7 @@ bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
+![Screenshot from 2024-02-28 18-16-37](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/5584f4fe-6104-457e-8712-e03b2df11e0a)
  
 abcd
  
@@ -1045,7 +1046,7 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
- 
+
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -1059,6 +1060,8 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
+![Screenshot from 2024-02-28 18-03-27](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/072c2ba3-ab64-4b6f-8d22-0c24c3522c57)
+
 
 
  cat exread1.sh
@@ -1071,8 +1074,7 @@ echo "Hello $name, welcome to my program. “
 $ chmod 755 exread1.sh 
 
 ## OUTPUT
-
-
+![Screenshot from 2024-02-28 18-03-27](https://github.com/Kishore23008675/OS-Linux-commands-Shell-script/assets/144979375/4db3d94d-45fa-4662-8c14-1b4c540e18a1)
 
 $ ./exread1.sh 
  
