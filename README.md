@@ -1,3 +1,6 @@
+NAME:KISHORE A
+REG:21223110022
+
 # OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
